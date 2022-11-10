@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <meta charset="UTF-8">
+    <title>pageTwo</title>
+    <link rel="stylesheet" href="../css/导航栏.css">
+    <link rel="stylesheet" href="../css/styleForPageTwo.css">
+    <script src="../js/JSForPageTwo.js"></script>
+</head>
+<body>
+<div class="top">
+    <div class="topItem"></div>
+    <div class="topItem"></div>
+    <div class="topItem"><a href="../mainPage.html"><strong>校庆主页</strong></a></div>
+    <div class="topItem"><a href="pageTwo.html"><strong>校园风光</strong></a></div>
+    <div class="topItem"><a href="pageThree.html"><strong>学校历史</strong></a></div>
+    <div class="topItem"><a href="pageFour.html"><strong>祝福母校</strong></a></div>
+    <div class="topItem"></div>
+    <div class="topItem"></div>
+</div>
+<style type="text/css">
+ul.nav{
+		padding:0px;
+		margin:0px;
+		list-style-type:none;
+		background: #4169E1 ;
+		overflow: hidden;
+	}
+	ul.nav li{
+		float: left;
+	}
+	ul.nav a{
+		display:block;
+		padding:0 30px;
+		line-height: 2.8;
+		text-decoration:none;
+		color:#fff;
+	}
+#name1{font-size:18pt;
+}
+#name2{font-size:18pt;
+}
+#name3{font-size:18pt;
+}
+.big_box{margin:0 auto;
+width:100%}
+.left_box{float:left;
+width:300px;
+margin-right:5px;
+}
+.right_box{float:left;
+width:1000px;
+margin-left:5px;
+}
+</style></head>
+<body >
+<div>
+<div id="butong_net_right" style="overflow:hidden;width:100%;">
+<table cellpadding="0" cellspacing="0" border="0">
+<tr><td id="butong_net_right1" valign="top" align="center">
+<table cellpadding="2" cellspacing="0" border="0">
+<tr align="center">
+<td><img src="1.jpg"width=800px height=600px></td>
+<td><img src="2.jpg"width=800px height=600px></td>
+<td><img src="3.jpg"width=800px height=600px></td>
+<td><img src="4.jpg"width=800px height=600px></td>
+<td><img src="5.jpg"width=800px height=600px></td>
+</tr>
+</table>
+</td>
+<td id="butong_net_right2" valign="top"></td>
+</tr>
+</table>
+</div>
+<script>
+var speed=5;
+butong_net_right2.innerHTML=butong_net_right1.innerHTML;
+function Marquee4(){
+if(butong_net_right.scrollLeft<=0)
+butong_net_right.scrollLeft+=butong_net_right2.offsetWidth;
+else{
+butong_net_right.scrollLeft--;
+}
+}
+var MyMar4=setInterval(Marquee4,speed);
+butong_net_right.onmouseover=function()
+{clearInterval(MyMar4)}
+butong_net_right.onmouseout=function() 
+{MyMar4=setInterval(Marquee4,speed)}
+</script>
+</div>
+</body>
+</body>
+</html>

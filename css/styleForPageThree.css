@@ -1,0 +1,53 @@
+.HuDu {
+    background-color: rgba(229,229,229,.7);
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    margin-top: 0;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 1px 10px gray;
+}
+
+#backgroundBox {
+    width: 100%;
+    height: 790px;
+    background-image: url("../img/library.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.stuff {
+    width: 100%;
+    height: 720px;
+}
+
+#main {
+    width: 100%;
+    height: 900px;
+    background-color: rgba(229,229,229,.7);
+    position: relative;
+    background-image: url("../img/景 (4).png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+}
+
+#stuffInMain {
+    width: 100%;
+    height: 200px;
+}
+
+h1 {
+    color: rgb(0, 134, 205);
+    text-align: center;
+    padding: 150px;
+    box-sizing: border-box;
+}

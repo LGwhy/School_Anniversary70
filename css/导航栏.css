@@ -1,0 +1,45 @@
+* {
+    font-family: "Microsoft YaHei", serif;
+    margin: 0;
+}
+/*顶部导航栏框架样式*/
+.top {
+    background-color: rgba(229,229,229,.7);
+    backdrop-filter: blur(12px);
+    width: 100%;
+    height: 30px;
+    padding: 10px 0 10px 0;
+    display: flex;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+    justify-content: center;
+    position: fixed;
+    align-items: center;
+    z-index: 20;
+    border-bottom-left-radius:25px;
+    border-bottom-right-radius:25px;
+    box-shadow: 0 1px 10px gray;
+}
+
+/*顶部导航栏框架内元素的样式*/
+.topItem {
+    text-decoration: none;
+    text-align: center;
+    flex-grow: 1;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    width: 60px
+}
+
+.topItem a {
+    color: #332828;
+    text-decoration: none;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+}
+
+
+.topItem a:hover {
+    background-color: rgb(0,134,205);
+    color: #FFFFFF ;
+    border-radius: 3rem;
+    padding: 3% 15%;
+}
